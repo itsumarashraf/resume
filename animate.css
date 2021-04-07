@@ -19,6 +19,7 @@
     }
     .heading p{
         font-size: 20px;
+        padding-bottom: 10px;
         font-family: 'Rock Salt', cursive;
     }
 
@@ -40,6 +41,7 @@
   }
   .social .fa:hover{
     cursor: pointer;
+    transform: translateY(2px);
   }
   .social .fa-facebook{
     color: blue;
@@ -63,7 +65,10 @@
   @media only screen and (max-width: 480px) {
     .heading h3 {
           font-size: 35px;
-    }   
+    }
+      footer{
+      font-size: 12px;
+    }
   }
   @media only screen and (max-width: 700px) {
     .cover{
@@ -263,6 +268,15 @@
 }
 .contactdetails p:hover{
   color:cornflowerblue;
+  cursor: pointer;
+}
+.contactdetails p a{
+  color: white;
+  text-decoration: none;
+}
+
+.contactdetails p a:hover{
+  color:rgb(223, 152, 0);
   cursor: pointer;
 }
 .contactform{
